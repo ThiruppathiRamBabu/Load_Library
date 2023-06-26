@@ -1,0 +1,26 @@
+{
+  "name": "image_modifier",
+  "version": "1.0.3",
+  "description": "To modify the image to resize and sepia filter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiruppathiRamBabu/image_modifier.git"
+  },
+  "keywords": [
+    "image_modifier"
+  ],
+  "author": "Babu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiruppathiRamBabu/image_modifier/issues"
+  },
+  "homepage": "https://github.com/ThiruppathiRamBabu/image_modifier#readme",
+  "dependencies": {
+    "jimp": "^0.22.8"
+  }
+}
