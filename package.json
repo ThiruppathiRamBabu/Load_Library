@@ -1,9 +1,9 @@
 {
   "name": "image_modifier",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "To modify the image to resize and sepia filter",
-  "main": "dist/index",
-  "types": "dist/index",
+  "main": "index",
+  "types": "index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"

@@ -3,7 +3,9 @@ const Jimp = require('jimp');
 function processImage(imagePath) {
   Jimp.read(imagePath)
     .then(image => {
-      image.resize(200, 200);
+      const maxWidth = 400;
+      const maxHeight = 400;
+      image.contain(maxWidth, maxHeight);
       image.sepia();
       image.write('output.jpg');
     })
